@@ -123,12 +123,47 @@ height: 50%;
    margin-top: 10px;
    gap: 20px;
 } 
-
-
-
-
-
-
+/* card */
+.card-one{
+width: 30rem;
+height: 15rem;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.card-two{
+   width: 30rem;
+   height: 15rem;
+   border-radius: 16px;
+   border: 1px solid rgba(41, 206, 246, 0.20);
+   background: rgba(41, 206, 246, 0.05);
+}
+.card-three{
+width: 30rem;
+height: 15rem;
+ border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.card-row-one{
+   display: flex;
+   gap: 30px;
+   align-items: center;
+   justify-content: center;
+}
+.card-row-two{
+   margin-top: 30px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 25%;
+}
+.card-one h2,.card-one i,.card-one P,.card-two h2,.card-two i,.card-two P,.card-three h2,.card-three i,.card-three P{
+   margin-top: 10px;
+   text-align: start;
+   margin-left: 10px;
+   margin-right: 20px;
+   
+}
 
     @media screen and (max-width:576px)
     {
@@ -183,6 +218,11 @@ height: 50%;
   .tour-des,.tour-img,.destination-img img{
    width: 100%;
   }
-
+  .card-row-one{
+   flex-direction: column;
+  }
+  .card-row-two{
+   margin-left: 20px;
+  }
 
     }
